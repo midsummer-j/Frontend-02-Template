@@ -50,5 +50,5 @@
 # 三、整理法
 
 
-![](https://user-gold-cdn.xitu.io/2020/7/2/1730fb5fcac124e4?w=682&h=1029&f=png&s=71341)
+![](https://user-gold-cdn.xitu.io/2020/7/2/1730fb5fcac124e4?imageView2/0/w/1280/h/960/format/webp/ignore-error/1)
 
