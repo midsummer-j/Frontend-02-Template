@@ -145,7 +145,7 @@ JavaScript总体上属于上下文无关文法，表达式部分属于正则文�
 	* 1 Sign 符号位
 	* 11 Exponent 指数位
 	* 52 Fraction 精度位
-	 >[64比特位计算方式]（http://bartaz.github.io/ieee754-visualization）
+	 >[64比特位计算方式]http://bartaz.github.io/ieee754-visualization
 	 
 * 进制
 0b10二进制
