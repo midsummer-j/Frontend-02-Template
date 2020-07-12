@@ -22,9 +22,9 @@
 	+ 3型: 正则文法
 ```<A>::=<A>?```
 
-###2. 什么是产生式
+### 2. 什么是产生式
 
-####BNF
+#### BNF
 + 尖括号扩起的名称标示语法结构名
 + 语法结构分为基础结构和需要用其他语法结构定义的复合结构
 	+ 基础结构称为终结符
@@ -35,8 +35,8 @@
 + ｜表示或
 + +表示至少一次
 
-###3. 深入理解产生式
-####乔姆斯基谱系
+### 3. 深入理解产生式
+#### 乔姆斯基谱系
 * 0型 无限制文法 --定义左右无限制
 * 1型 上下文相关文法 --变化前后（上下）相同
 * 2型 上下文无关文法 --左边一个非终结符右边无限制
@@ -46,8 +46,8 @@ JavaScript总体上属于上下文无关文法，表达式部分属于正则文�
 
 特例：乘方右结合2\*\*1**2
 
-###4. 现代语言的分类
-* ####现代语言特例
+### 4. 现代语言的分类
+* #### 现代语言特例
 
 	* C++中，*可能表示乘号或者指针，具体表示取决于星号前标识符是否被声明为类型
 
@@ -76,7 +76,7 @@ JavaScript总体上属于上下文无关文法，表达式部分属于正则文�
  ```c c++ java c# python ruby javascript```
 
 
-###5. 编程语言的性质
+### 5. 编程语言的性质
 * ### 图灵完备性
 
 	图灵在研究数学可计算性概念提出
@@ -101,7 +101,7 @@ JavaScript总体上属于上下文无关文法，表达式部分属于正则文�
 		* 产品开发时
 		* Compiletime
 
-* ###类型系统
+* ### 类型系统
 
 	*  动态类型系统 （用户） 静态类型系统 （开发）
 	*  强类型 类型转换不默认发生 弱类型 （JavaScript中number+string=string；boolean=》number再和string作对比）
@@ -115,7 +115,7 @@ JavaScript总体上属于上下文无关文法，表达式部分属于正则文�
 那么凡是能用Function<Child>的地方，
 都能用Function<Parent>---逆变
 
-###6. 一般命令式编程语言的设计方式
+### 6. 一般命令式编程语言的设计方式
 * ### 一般命令式编程语言
 
 	* #### 原子级
@@ -136,7 +136,7 @@ JavaScript总体上属于上下文无关文法，表达式部分属于正则文�
 	* #### 组织代码（npm）
 
 ## JS类型
-###1. JS类型 | Number
+### 1. JS类型 | Number
 
 [双精度浮点类型](https://developer.mozilla.org/zh-CN/docs/Glossary/Number)
 [双精度浮点类型计算](http://weitz.de/ieee/)
@@ -168,7 +168,7 @@ Number.parseInt('20',2)//NaN
 (1000).toString(36)//"rs" 转36进制
 ```
 
-###2. JS类型 | String
+### 2. JS类型 | String
 
 * #### Grammar
 
@@ -179,7 +179,7 @@ Number.parseInt('20',2)//NaN
 	* }abc`
 	* \` \`
 
-###3. JS类型 | 其他类型
+### 3. JS类型 | 其他类型
 * Boolean
 	* true 
 	* false
@@ -204,7 +204,7 @@ function f(){
 用void关键字得到undefined
 
 ## JS对象
-###10. JS对象 | 对象的基础知识
+### 10. JS对象 | 对象的基础知识
 
 * **核心要素：状态，标识符，行为** 
 
@@ -213,7 +213,7 @@ function f(){
 	* 用状态来描述对象。
 	* 状态的改变即是行为。
 
-###11. JS对象 | JS中的对象
+### 11. JS对象 | JS中的对象
 
 #### Symbol
 
@@ -230,11 +230,11 @@ JavaScript属性的值分为两种形态，第一种是数据属性，数据属�
 * 访问器属性：
 多数是用来描述行为的，但也会同时描述状态和行为
 
-	![](https://user-gold-cdn.xitu.io/2020/7/11/1733e349aea562f6?w=879&h=462&f=png&s=75265)
+	![](https://github.com/midsummer-j/Frontend-02-Template/blob/master/week02/img/attribute.png)
 
 * 原型机制
 
-	![](https://user-gold-cdn.xitu.io/2020/7/11/1733e3513c3096db?w=757&h=489&f=png&s=71255)
+	![](https://github.com/midsummer-j/Frontend-02-Template/blob/master/week02/img/machine_made.png)
 
 * ### Object API/Grammar
 
@@ -242,6 +242,6 @@ JavaScript属性的值分为两种形态，第一种是数据属性，数据属�
 	* 基于原型的描述对象的方法，通过Object.create在指定原型的前提下创建对象，而我们又可以去修改一个对象的原型或者获取一个对象的原型，这是基于原型对象的API。
 	* 基于分类的方式描述对象，在运行时会转换成JavaScript的原型相关的访问，从语法和抽象能力上看，它是基于类的面向对象的组织方式。
 	* es3
-![](https://user-gold-cdn.xitu.io/2020/7/11/1733e40f426a61f5?w=815&h=450&f=png&s=54019)
-![](https://user-gold-cdn.xitu.io/2020/7/11/1733e4e852e29544?w=897&h=508&f=png&s=100999)
+![](https://github.com/midsummer-j/Frontend-02-Template/blob/master/week02/img/grammar.png)
+![](https://github.com/midsummer-j/Frontend-02-Template/blob/master/week02/img/built_in.png)
 凡是属于双括号的定义[[]]是对象的内置行为，在JavaScript代码中无法访问
