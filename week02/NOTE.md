@@ -230,11 +230,11 @@ JavaScript属性的值分为两种形态，第一种是数据属性，数据属�
 * 访问器属性：
 多数是用来描述行为的，但也会同时描述状态和行为
 
-	![](https://github.com/midsummer-j/Frontend-02-Template/blob/master/week02/img/attribute.png)
+	![](https://raw.githubusercontent.com/midsummer-j/Frontend-02-Template/master/week02/img/attribute.png)
 
 * 原型机制
 
-	![](https://github.com/midsummer-j/Frontend-02-Template/blob/master/week02/img/machine_made.png)
+	![](https://raw.githubusercontent.com/midsummer-j/Frontend-02-Template/master/week02/img/machine_made.png)
 
 * ### Object API/Grammar
 
@@ -242,6 +242,6 @@ JavaScript属性的值分为两种形态，第一种是数据属性，数据属�
 	* 基于原型的描述对象的方法，通过Object.create在指定原型的前提下创建对象，而我们又可以去修改一个对象的原型或者获取一个对象的原型，这是基于原型对象的API。
 	* 基于分类的方式描述对象，在运行时会转换成JavaScript的原型相关的访问，从语法和抽象能力上看，它是基于类的面向对象的组织方式。
 	* es3
-![](https://github.com/midsummer-j/Frontend-02-Template/blob/master/week02/img/grammar.png)
-![](https://github.com/midsummer-j/Frontend-02-Template/blob/master/week02/img/built_in.png)
+![](https://raw.githubusercontent.com/midsummer-j/Frontend-02-Template/master/week02/img/grammar.png)
+![](https://raw.githubusercontent.com/midsummer-j/Frontend-02-Template/master/week02/img/built_in.png)
 凡是属于双括号的定义[[]]是对象的内置行为，在JavaScript代码中无法访问
