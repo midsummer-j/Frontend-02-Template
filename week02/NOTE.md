@@ -243,7 +243,8 @@ JavaScript属性的值分为两种形态，第一种是数据属性，数据属�
 	* 基于分类的方式描述对象，在运行时会转换成JavaScript的原型相关的访问，从语法和抽象能力上看，它是基于类的面向对象的组织方式。
 	* es3
 	
-![](https://raw.githubusercontent.com/midsummer-j/Frontend-02-Template/master/week02/img/grammar.png)
+	![](https://raw.githubusercontent.com/midsummer-j/Frontend-02-Template/master/week02/img/grammar.png)
 
-![](https://raw.githubusercontent.com/midsummer-j/Frontend-02-Template/master/week02/img/built_in.png)
-凡是属于双括号的定义[[]]是对象的内置行为，在JavaScript代码中无法访问
+	![](https://raw.githubusercontent.com/midsummer-j/Frontend-02-Template/master/week02/img/built_in.png)
+
+	凡是属于双括号的定义[[]]是对象的内置行为，在JavaScript代码中无法访问
