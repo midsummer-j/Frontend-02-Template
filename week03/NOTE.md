@@ -138,8 +138,11 @@ class、const、let声明之前调用报错 （建议）
 
 * 预处理pre-process
 在代码执行之前javascript引擎会对代码做预先处理,var不管是写在函数哪个位置，if里面 return之后， catch里面 finally里面都会预处理声明到函数级别。
+
 ![](https://raw.githubusercontent.com/midsummer-j/Frontend-02-Template/master/week03/img/pre_process.png)
+
 * 作用域
+
 ![](https://raw.githubusercontent.com/midsummer-j/Frontend-02-Template/master/week03/img/scope.png)
 
 * #### 运行时
