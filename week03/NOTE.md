@@ -3,7 +3,7 @@
 ### 1.JS表达式--Expressions
 * #### 语法树和运算符优先级的关系
 	 Grammar Tree 语法树 四则运算是按照先乘除后加减的运算法则，所以加减法在语法树的最顶端
-	 [](https://raw.githubusercontent.com/midsummer-j/Frontend-02-Template/master/week03/img/grammar_tree.png)
+	 ![](https://raw.githubusercontent.com/midsummer-j/Frontend-02-Template/master/week03/img/grammar_tree.png)
 	\+ \-
 	\* \/
 	()
