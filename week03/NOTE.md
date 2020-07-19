@@ -3,7 +3,9 @@
 ### 1.JS表达式--Expressions
 * #### 语法树和运算符优先级的关系
 	 Grammar Tree 语法树 四则运算是按照先乘除后加减的运算法则，所以加减法在语法树的最顶端
+	 
 	 ![](https://raw.githubusercontent.com/midsummer-j/Frontend-02-Template/master/week03/img/grammar_tree.png)
+	 
 	\+ \-
 	\* \/
 	()
@@ -92,10 +94,10 @@
 	
 * 拆箱(Unboxing)转换
 将引用类型对象转换为对应的值类型对象
-[](https://raw.githubusercontent.com/midsummer-j/Frontend-02-Template/master/week03/img/unboxing.png)
+![](https://raw.githubusercontent.com/midsummer-j/Frontend-02-Template/master/week03/img/unboxing.png)
 * 装箱(Boxing)转换
 把基本数据类型转化为对应的引用数据类型的操作
-[](https://raw.githubusercontent.com/midsummer-j/Frontend-02-Template/master/week03/img/boxing.png)
+![](https://raw.githubusercontent.com/midsummer-j/Frontend-02-Template/master/week03/img/boxing.png)
 
 ### 3.JS语句--Statement
 
@@ -110,16 +112,16 @@
 		* ReturnStatement      函数中使用，返回函数值
 	* 复合语句   
 		* BlockStatement ｛语句列表｝单条语句变多条语句
-[](https://raw.githubusercontent.com/midsummer-j/Frontend-02-Template/master/week03/img/block.png)
-[](https://raw.githubusercontent.com/midsummer-j/Frontend-02-Template/master/week03/img/tag.png)
+![](https://raw.githubusercontent.com/midsummer-j/Frontend-02-Template/master/week03/img/block.png)
+![](https://raw.githubusercontent.com/midsummer-j/Frontend-02-Template/master/week03/img/tag.png)
 		* IfStatement  条件语句
 		* SwitchStatement 多分支结构，不建议在JavaScript使用，用if代替
 		* IterationStatement 代表多个语句，while，do while,for,for await
-[](https://raw.githubusercontent.com/midsummer-j/Frontend-02-Template/master/week03/img/Iteration.png)
+![](https://raw.githubusercontent.com/midsummer-j/Frontend-02-Template/master/week03/img/Iteration.png)
 		* WithStatement 通过with打开一个对象，把对象所有的属性直接放进作用域
 		* LabelledStatement
 		* TryStatement 三段结构 try\catch\Finally
-[](https://raw.githubusercontent.com/midsummer-j/Frontend-02-Template/master/week03/img/try.png)
+![](https://raw.githubusercontent.com/midsummer-j/Frontend-02-Template/master/week03/img/try.png)
 	* 声明 
 		* FunctionDeclaration 函数声明 4种形态 
 			* function* generator声明
@@ -136,9 +138,9 @@ class、const、let声明之前调用报错 （建议）
 
 * 预处理pre-process
 在代码执行之前javascript引擎会对代码做预先处理,var不管是写在函数哪个位置，if里面 return之后， catch里面 finally里面都会预处理声明到函数级别。
-[](https://raw.githubusercontent.com/midsummer-j/Frontend-02-Template/master/week03/img/pre_process.png)
+![](https://raw.githubusercontent.com/midsummer-j/Frontend-02-Template/master/week03/img/pre_process.png)
 * 作用域
-[](https://raw.githubusercontent.com/midsummer-j/Frontend-02-Template/master/week03/img/scope.png)
+![](https://raw.githubusercontent.com/midsummer-j/Frontend-02-Template/master/week03/img/scope.png)
 
 * #### 运行时
 	* Completion Record 语句执行结果的记录
@@ -164,4 +166,4 @@ JavaScript引擎发起的任务为微观任务,如Promise
 	* 根据宏任务的触发规则和调用次序，确定宏任务的执行次序；
 确定整个顺序。
 
-[](https://raw.githubusercontent.com/midsummer-j/Frontend-02-Template/master/week03/img/task.png)
+![](https://raw.githubusercontent.com/midsummer-j/Frontend-02-Template/master/week03/img/task.png)
