@@ -320,3 +320,9 @@ content content content content
 content content content content
 </div>
 ```
+
+### 思考
+
+**为什么 first-letter 可以设置 float 之类的，而 first-line 不行呢？**
+
+first-line 是针对第一行设置的样式，但是根据屏幕的大小第一行的内容不是固定的，所以对第一行不能进行脱离文本流处理。
