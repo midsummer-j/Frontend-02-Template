@@ -130,6 +130,7 @@ for (let token of tokenize("1024 + 10 * 25")) {
     A --> F[0]
     F --> G[0]
 ```
+![trie2](img/2.jpg)
 ```graphLR
     A[-] --> B[3]
     B --> C[4]
@@ -139,6 +140,7 @@ for (let token of tokenize("1024 + 10 * 25")) {
     G --> H[1]
     G --> I[0]
 ```
+![trie3](img/3.jpg)
 ```graphLR
     A[-] --> B[3]
     B --> C[4]
@@ -151,6 +153,7 @@ for (let token of tokenize("1024 + 10 * 25")) {
     I --> K[2]
     I --> L[7]
 ```
+![trie4](img/4.jpg)
 ### 8. 字符串分析算法 | KMP字符串模式匹配算法(trie.html)
 
 ### 9. 字符串分析算法 | Wildcard
