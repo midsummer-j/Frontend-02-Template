@@ -123,6 +123,7 @@ for (let token of tokenize("1024 + 10 * 25")) {
     A[-] --> B[3]
     A --> F[0]
 ```
+![trie1](img/1.jpg)
 ```graphLR
     A[-] --> B[3]
     B --> C[4]
