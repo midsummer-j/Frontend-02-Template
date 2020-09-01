@@ -156,4 +156,4 @@ for (let token of tokenize("1024 + 10 * 25")) {
 ![trie4](img/4.jpg)
 ### 8. 字符串分析算法 | KMP字符串模式匹配算法(KMP.js)
 
-### 9. 字符串分析算法 | Wildcard
+### 9. 字符串分析算法 | Wildcard(wildcard.html)
