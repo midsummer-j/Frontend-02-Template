@@ -157,3 +157,32 @@ for (let token of tokenize("1024 + 10 * 25")) {
 ### 8. 字符串分析算法 | KMP字符串模式匹配算法(KMP.js)
 
 ### 9. 字符串分析算法 | Wildcard(wildcard.html)
+
+### function* yield
+```
+function* generator(i) {
+  yield i;
+  yield i + 10;
+}
+
+const gen = generator(10);
+
+console.log(gen.next());
+// Object { value: 10, done: false }
+
+console.log(gen.next());
+// Object { value: 20, done: false }
+```
+---
+```
+function* generator(i) {
+  yield i;
+  yield i + 10;
+}
+
+for(let i of generator(10)){
+console.log(i)
+}
+//10
+//20
+```
