@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #highlight {
+        background: yellow;
+        position: absolute;
+        z-index: -1;
+      }
+
+      p {
+        width: 200px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="highlight"></div>
+    <p>
+      This example positions a "highlight" rectangle behind the contents of a
+      range. The range's content <b>starts here</b> and continues on until it
+      <b>ends here</b>. The bounding client rectangle contains everything
+      selected in the range.
+    </p>
+  </body>
+
+  <script>
+    // 一旦一个 Range 对象被建立，在使用他的大多数方法之前需要去设置他的临界点。
+    const range = document.createRange();
+    // document.getElementsByTagName("b").item(0)以其它节点为基准，设置 Range 的起点
+    const startNode = document.getElementsByTagName("b").item(0);
+    range.setStartBefore(startNode);
+    const endNode = document.getElementsByTagName("b").item(1);
+    /**
+     * endNode
+     *   endNode用于设定 Range的结束位置。
+     * endOffset
+     * 必须为不小于0的整数。表示从endNode的结束位置算起的偏移量。
+     */
+    // range.setEnd(endNode, endNode.childNodes.length);
+
+    range.setEndAfter(endNode);
+    const clientRect = range.getBoundingClientRect();
+    const highlight = document.getElementById("highlight");
+    highlight.style.left = `${clientRect.x}px`;
+    highlight.style.top = `${clientRect.y}px`;
+    highlight.style.width = `${clientRect.width}px`;
+    highlight.style.height = `${clientRect.height}px`;
+  </script>
+</html>
