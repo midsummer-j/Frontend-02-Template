@@ -27,7 +27,7 @@ class Carousel extends Component {
       let move = event => {
 
         let x = event.clientX - startX// y = event.clientY - startY
-        console.log(event);
+        // console.log(event);
         let current = position - ((x - x % 500) / 500)
 
         for (let offset of [-1, 0, 1]) {
