@@ -5,5 +5,4 @@
 `npm start`
 
 ### 1. 手势与动画 | 手势的基本知识
-* gesture
-  ![gesture](images/gesture.png)
+![gesture](images/gesture.png)
